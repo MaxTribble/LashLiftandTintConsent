@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LashLiftandTintConsent</title>
+</head>
+<body  style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+background-color:whitesmoke;
+margin-left: 70px;
+font-size: 25px;
+line-height: 2;">
+    <form id="form">
+        <!-- <P style="page-break-before: always"> -->
+        <H2 style="text-align: center; margin: 20px 0px;">Lash Lift and Tint Consent Form</H2>
+
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name">
+
+        <label for="address">Address:</label>
+        <input type="text" id="address" name="address"><br>
+
+        <label for="city">City:</label>
+        <input type="text" id="city" name="city"> <br>
+
+        <label for="state">State:</label>
+        <input type="text" id="state" name="state">
+
+        <label for="zip">Zip:</label>
+        <input type="text" id="zip" name="zip"><br>
+
+        <label for="mNumber">Home/Cell Number:</label>
+        <input type="number" id="mNumber" name="mNumber">
+
+        <label for="wNumber">Work Number:</label>
+        <input type="number" id="number" name="wNumber">
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"> <br>
+
+        <p>The lash lift technique is designed to give you longer-looking lashes without need for lash extensions. It will look as if you used a really good lash curler, only this lift lasts for 6 to 9 weeks! Lashes replace themselves every 6 to 9 weeks. I'll apply a black lash tint which really makes your lashes look more prominent. The procedure takes about 30 to 40 minutes to complete. It really is an easy way to instantly brighten and open up the eye area! Lash lift will stay lifted for 6 to 9 weeks.</p>
+
+        <p>On occasion some lashes are resistant, it is very difficult and sometimes not possible to sustain the curl with lashes that have a strong cowlick or slanted growth pattern. Also, growth pattern due to plastic surgery in the eye area are often not able to be corrected.</p>
+
+        <p><b>*By checking the box, you agree you have read and accept the following statements below.</b></p>
+        
+        <input type="checkbox" name="initial">
+        <label for="initial">I agree to have a lash lift and tinit applied to my lashes/or retouched.</label> <br>
+
+        <input type="checkbox" name="initial">
+        <label for="initial">I have removed my contact lenses before service.</label> <br>
+
+        <input type="checkbox" name="initial">
+        <label for="initial">I understand there are risks associated with having a lash lift and tinit. I understand that there can be eye irritation, eye pain and eye itching: in rare cases eye infection and blurriness could occur.</label> <br>
+
+        <input type="checkbox" name="initial">
+        <label for="initial">I agree if any of these conditions occur I will contact my technician and physician at my own expense.</label> <br>
+
+        <input type="checkbox" name="initial">
+        <label for="initial">I understand that the tape, instruments, eye gel pads, adhesive and removers used may irritate the eyes.</label> <br>
+
+        <label for="allergies">List any allergies:</label>
+        <input type="text" name="allergies" id="allergies"> <br>
+
+        <label for="medications">List any medications:</label>
+        <input type="text" name="medications" id="medications"> <br>
+        <p>(medications may have an effect on the lashes lifting or length the lashes stay lifted)</p> <br>
+
+        <p><b>Please check any that may apply:</b></p>
+
+        <input type="checkbox" name="check" id="check">
+        <label for="check">History of any eye or tear duct infection.</label> <br>
+
+        <input type="checkbox" name="check" id="check">
+        <label for="check">Cuurent use of sunscreen or oils around the eyes.</label> <br>
+
+        <input type="checkbox" name="check" id="check">
+        <label for="check">Current use of eye drops of any kind.</label> <br>
+
+        <input type="checkbox" name="check" id="check">
+        <label for="check">History of dry eye or sjorgen's syndrome (disorder of your immune system identified by its two most common symptoms: dry eyes and a dry mouth)</label> <br>
+
+        <div style="page-break-before: always"></div>
+
+        <input type="checkbox" name="check" id="check">
+        <label for="check">History of chemootherapy.</label> <br>
+
+        <input type="checkbox" name="check" id="check">
+        <label for="check">Current allergies or sensitivity to insruments, fumes, tape, cleaners, eye gel pads, adhesive and removers that could cause my eyes to water and blink excessivly.</label> <br>
+
+        <input type="checkbox" name="check" id="check">
+        <label for="check">I understand that this agreement will remain in effect for this service and all future lash lift and tint procedures.</label> <br>
+
+        <input type="checkbox" name="check" id="check">
+        <label for="check">History of chemootherapy.</label> <br>
+
+        <p>A patch test is not required; however, let your techincian know if you would like a patch test.</p>
+
+        <li><label for="patchTest">Would you like to waive a patch test? *Acknowledge in waiving a patch test; you accept fill responsibilty for any reaction that may occur due to undisclosed sensitivity / allergies.</label>
+            <select name="patchTest" id="patchTest">
+                <option value="" disabled selected hidden>select</option>
+                <option value="yes">yes</option>
+                <option value="no">no</option>
+            </select> 
+
+        <input type="checkbox" name="check" id="check">
+        <label for="check">I am 18 years of age or older.</label> <br>
+
+        <ul>
+            <li><b>Let your technician know if you are pregnant, nursing or trying to become pregnant. This can effect the outome of your lift</b></li>
+
+            <li><b>If you have had ocular surgeries, including blepharoplasty (eyelid lifts) and LASK then you must wait at minimum 6 to 12 months before having the lifts.</b></li>
+        </ul>
+
+        
+        <h4>Signature:</h4>
+
+        
+        <input type="text" name="signature1" id="signature1" style="font-family: cursive;">
+        <label for="signature1">Date: <span id="currentDate"></span></u> </label>
+        
+        <!-- <button class="write">Write Electronic Signature</button> -->
+
+        <!-- <div id="sig"></div> -->
+        <!-- <p><span><a href="#" class="clear-button hidden">Clear</a></span><span><a href="#" class="done hidden" style="color: #000; margin-left: 250px;">Done</a></span></p>
+        <canvas height="150" width="550" class="signature-pad hidden"></canvas> -->
+
+
+</form>
+<div id="button" style="text-align: center;
+cursor: pointer;
+border: 2px solid black;
+padding: 4px;
+margin: auto;
+max-width: fit-content;
+border-radius: 10px;
+font-size: 40px;">Done</div>
+
+<div class="hidden" id="loading"style="z-index: 7; position: fixed; font-size: 50px; background-color: lightgray; top: 50%; left: 30%; border: 3px solid black; padding: 40px; border-radius: 15px;">Processing...</div>
+<div class="hidden" id="fileSave"style="z-index: 7; position: fixed; font-size: 50px; background-color: lightgray; top: 50%; left: 30%; border: 3px solid black; padding: 40px; border-radius: 15px">File Saved!</div>
+<style>
+    .hidden{
+        display: none;
+    }
+
+    :root {
+    --primary-color: #000;
+    }
+
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 1.4;
+        padding: 1rem;
+    }
+    .signature-pad-form {
+        max-width: 300px;
+        margin: 0 auto;
+    }
+    .signature-pad {
+        cursor: url(pen.png) 1 26, pointer;
+        border: 2px solid var(--primary-color);
+        border-radius: 4px;
+    }
+    .clear-button {
+        color: var(--primary-color);
+    }
+    .submit-button {
+        width: 100%;
+        background-color: var(--primary-color);
+        border: none;
+        padding: 0.5rem 1rem;
+        color: #fff;
+        cursor: pointer;
+        margin-top: 2rem;
+    }
+    .overflow{
+        overflow:hidden;
+    }
+    
+</style>
+</body>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.3/html2pdf.bundle.min.js" integrity="sha512-YcsIPGdhPK4P/uRW6/sruonlYj+Q7UHWeKfTAkBW+g83NKM+jMJFJ4iAPfSnVp7BKD4dKMHmVSvICUbE/V1sSw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> 
+
+<script>
+    var ok = document.getElementById('button');
+    var body = document.querySelector('body')
+    var labels = document.getElementsByTagName('LABEL');
+    var input = document.getElementsByTagName('INPUT');
+    var load = document.getElementById('loading');
+    var done = document.getElementById('fileSave');
+    var doneButton = document.querySelector('.done')
+    var style = document.createElement('style');
+    var name = document.getElementById('name');
+    var date = document.getElementById('currentDate')
+    n =  new Date();
+    y = n.getFullYear();
+    m = n.getMonth() + 1;
+    d = n.getDate();
+    document.getElementById("currentDate").innerHTML = m + "/" + d + "/" + y;
+    // const sig = document.getElementById('sig');
+    // const canvas = document.querySelector('canvas');
+    // const form = document.querySelector('#form');
+    // const clearButton = document.querySelector('.clear-button');
+    // const write = document.querySelector('.write');
+    // const ctx = canvas.getContext('2d');
+    // let writingMode = false;
+
+    // write.addEventListener('click', (event) => {
+    //     event.preventDefault()
+    //     canvas.classList.remove('hidden')
+    //     clearButton.classList.remove('hidden')
+    //     doneButton.classList.remove('hidden')
+    //     write.classList.add('hidden')
+    //     body.classList.add('overflow')
+    // })
+    // const clearPad = () => {
+    //     ctx.clearRect(0, 0, canvas.width, canvas.height);
+    // }
+
+    // doneButton.addEventListener('click', (event) => {
+    //     event.preventDefault();
+    //     body.classList.remove('overflow')
+    //     const imageURL = canvas.toDataURL();
+    //     const image = document.createElement('img');
+    //     image.src = imageURL;
+    //     image.height = canvas.height;
+    //     image.width = canvas.width;
+    //     image.style.display = 'block';
+    //     canvas.classList.add('hidden')
+    //     doneButton.classList.add('hidden')
+    //     clearButton.classList.add('hidden')
+    //     write.classList.remove('hidden')
+    //     while (sig.firstChild) {
+    //     sig.removeChild(sig.lastChild);
+    //     }
+    //         sig.appendChild(image);
+    //         clearPad();
+    //     })
+
+    // const getCursorPosition = (event) => {
+    //     positionX = event.clientX - event.target.getBoundingClientRect().x;
+    //     positionY = event.clientY - event.target.getBoundingClientRect().y;
+    //     return [positionX, positionY];
+    // }
+
+    // const handlePointerDown = (event) => {
+    //     writingMode = true;
+    //     ctx.beginPath();
+    //     const [positionX, positionY] = getCursorPosition(event);
+    //     ctx.moveTo(positionX, positionY);
+    // }
+    // const handlePointerUp = () => {
+    //     writingMode = false;
+    // }
+
+    // const handlePointerMove = (event) => {
+    //     if (!writingMode) return
+    //     const [positionX, positionY] = getCursorPosition(event);
+    //     ctx.lineTo(positionX, positionY);
+    //     ctx.stroke();
+    // }
+
+    // clearButton.addEventListener('click', (event) => {
+    //     event.preventDefault();
+    //     ctx.clearRect(0, 0, canvas.width, canvas.height);
+    // })
+
+    // ctx.lineWidth = 2;
+    // ctx.lineJoin = ctx.lineCap = 'round';
+
+    // canvas.addEventListener('pointerdown', handlePointerDown, {passive: true});
+    // canvas.addEventListener('pointerup', handlePointerUp, {passive: true});
+    // canvas.addEventListener('pointermove', handlePointerMove, {passive: true});
+
+    ok.addEventListener('click', async function(event){      
+        event.preventDefault()
+        console.log(form)
+        var name = form.name.value + "LashLiftandTintConsent"
+        var opt = {
+        margin:       1,
+        filename:     name,
+        image:        { type: 'jpeg=', quality: 0.98 },
+        html2canvas:  { scale: 2 },
+        jsPDF:        { unit: 'in', format: 'letter', orientation: 'portrait' }
+    };
+        await load.classList.remove('hidden');
+        await html2pdf().set(opt).from(form).save();
+        await load.classList.add('hidden');
+        await done.classList.remove('hidden')
+    })
+
+    done.addEventListener("click", function(){
+        location.reload()
+    })
+ </script> 
+ </html> 
